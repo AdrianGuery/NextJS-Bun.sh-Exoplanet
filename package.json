@@ -10,8 +10,11 @@
   "devDependencies": {
     "@types/react": "^18",
     "bun-framework-next": "^12",
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "react-refresh": "0.10.0",
+    "typescript": "latest"
   },
   "module": "index.js"
 }

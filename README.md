@@ -1,16 +1,19 @@
+<img src="https://eslint.org/icon-512.png" alt="ESlint" height="undefined"/>
+<img src="https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg" alt="Prettier" height="undefined"/>
+
 # Next.js with Bun runtime
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with Bun.
+This is a [Next.js](https://nextjs.org/) boilerplate with Bun.
 
 ## Getting Started
 
-### Cloning the repo
+### Install
 
 ```sh
-bun create next ./app
+bun install
 ```
 
-First, run the development server:
+### Run the development server
 
 ```bash
 bun dev
@@ -24,13 +27,6 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 To learn more about Next.js, take a look at the following resources:
 
+- [Bun.js](https://bun.sh/) - learn about bun.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

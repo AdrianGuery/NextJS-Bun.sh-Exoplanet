@@ -6,7 +6,7 @@
 
 Compare build and on-page performances of :
 
-- [Next.js / Node.js : link](http://localhost:3000)
+- [Next.js / Node.js : link](https://github.com/AdrianGuery/NextJS-exoplanet)
 - `Next.js` / `Bun.sh` -> current project
 - `Gatsby.js` / `Node.js`
 

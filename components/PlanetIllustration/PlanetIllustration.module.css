@@ -1,0 +1,85 @@
+@keyframes translate-background {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -600px;
+  }
+}
+@keyframes rotate-planet {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.rootPlanetIllustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: black;
+}
+
+.background {
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+
+  background: url("https://previews.123rf.com/images/sakkmesterke/sakkmesterke1709/sakkmesterke170900024/85363866-frozen-planet-texture-panorama-360-degrees-computer-generated-abstract-background-3d-rendering.jpg")
+    repeat-x;
+  border-radius: 50%;
+
+  animation: translate-background 40s infinite linear;
+}
+
+.clouds {
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+
+  background: url("http://artem.anmedio.ru/dev/planet/clouds.png") repeat-x;
+  border-radius: 50%;
+  opacity: 0.4;
+
+  animation: translateBackground 30s infinite linear;
+}
+.wrap {
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+
+  animation: rotate-planet 150s infinite linear;
+}
+.mask {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+  box-shadow: inset -10px -10px 40px black,
+    inset 10px 10px 30px -10px rgb(91 168 179);
+}
+.planet {
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+
+  border-radius: 50%;
+  box-shadow: 0 0 600px -20px rgb(3 172 255 / 72%),
+    -14px -15px 40px -10px rgb(255 238 191 / 23%);
+}

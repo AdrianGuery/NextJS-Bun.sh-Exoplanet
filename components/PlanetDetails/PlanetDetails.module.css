@@ -1,0 +1,57 @@
+.rootPlanetDetails {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-inline: 5vw;
+}
+
+* > p {
+  color: #c2c0c0;
+}
+
+.name {
+  display: box;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.name > h1 {
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.description {
+  width: 50%;
+}
+
+.featureContainer {
+  flex-direction: column;
+  width: 50%;
+}
+
+.featureName {
+  margin-bottom: 0;
+
+  color: #a3a3a395;
+
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.featureData {
+  margin-top: 0;
+}
+
+.nextLink {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+
+  font-size: larger;
+}

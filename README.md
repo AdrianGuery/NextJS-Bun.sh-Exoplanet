@@ -1,32 +1,26 @@
-<p><img src="https://eslint.org/icon-512.png" alt="ESlint" height="undefined"/> ESLint </p>
-<p><img src="https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg" alt="Prettier" height="undefined"/></p>
+## Stack of this project
 
-# Next.js with Bun runtime
+`Next.js` / `Bun.sh`
 
-This is a [Next.js](https://nextjs.org/) boilerplate with Bun.
+## Objective of the project
 
-## Getting Started
+Compare build and on-page performances of :
 
-### Install
+- [Next.js / Node.js : link](http://localhost:3000)
+- `Next.js` / `Bun.sh` -> current project
+- `Gatsby.js` / `Node.js`
 
-```sh
-bun install
-```
+You will find the other projects on [my github](https://github.com/AdrianGuery).
 
-### Run the development server
+## The results
 
-```bash
-bun dev
-```
+🚧 Work in progress... 🚧
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The project
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+More than 5000 pages with details informations about exoplanet.
 
-## Learn More
+<img src="./assets/screenshot.png" alt="project-screenshot" height="undefined"/>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Bun.js](https://bun.sh/) - learn about bun.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Datasource : https://exoplanetarchive.ipac.caltech.edu/
+Design inspiration : https://dribbble.com/shots/11271564-Planestate-Website-Interaction-Concept
